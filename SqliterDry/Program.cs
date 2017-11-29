@@ -13,7 +13,11 @@ namespace SqliterDry
 
                 var cmd = new SQLiteCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "SELECT * FROM users";
+                cmd.CommandText = "SELECT * FROM users WHERE name LIKE @search";
+
+                string searchString = "a";
+                
+                cmd.Parameters.Add(new SQLiteParameter("@search", "%" + searchString + "%"));
 
                 conn.Open();
 
