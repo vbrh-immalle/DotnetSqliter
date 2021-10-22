@@ -37,7 +37,7 @@ These are some interesting commands to try on this interactive CLI-tool:
 
 As with every SQL dialect, SQLite has a slightly different syntax.
 
-https://www.tutorialspoint.com/sqlite/index.htm
+You can check https://www.sqlite.org/syntaxdiagrams.html for the complete syntax or https://www.tutorialspoint.com/sqlite/index.htm for a lighter introduction.
 
 # DotNet version and NuGet package
 
