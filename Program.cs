@@ -1,23 +1,23 @@
 ﻿using System;
-using System.Data.SQLite;
+using Microsoft.Data.Sqlite;
 
-namespace SqliterDry
+namespace DotnetSqliter
 {
     class Program
     {
         static void Main(string[] args)
         {
-            using(var conn = new SQLiteConnection())
+            using(var conn = new SqliteConnection())
             {
-                conn.ConnectionString = "Data Source=mydb.db;Version=3";
+                conn.ConnectionString = "Data Source=mydb.sqlite3";
 
-                var cmd = new SQLiteCommand();
+                var cmd = new SqliteCommand();
                 cmd.Connection = conn;
                 cmd.CommandText = "SELECT * FROM users WHERE name LIKE @search";
 
                 string searchString = "a";
                 
-                cmd.Parameters.Add(new SQLiteParameter("@search", "%" + searchString + "%"));
+                cmd.Parameters.Add(new SqliteParameter("@search", "%" + searchString + "%"));
 
                 conn.Open();
 

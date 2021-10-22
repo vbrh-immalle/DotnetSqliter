@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliterDry", "SqliterDry\SqliterDry.csproj", "{0D91AE6A-6FF4-4A41-B559-361AC60F7FD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetSqliter", "DotnetSqliter.csproj", "{0D91AE6A-6FF4-4A41-B559-361AC60F7FD9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{383F2D73-8E87-4D20-86BF-B786F2C06429}"
 	ProjectSection(SolutionItems) = preProject
