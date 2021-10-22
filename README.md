@@ -1,5 +1,14 @@
 # ADO.Net with SQLite
 
+## Quickstart
+
+    mkdir c:\work
+    c:
+    cd c:\work
+    git clone https://github.com/vbrh-immalle/DotnetSqliter
+    cd DotnetSqliter
+    dotnet run
+
 ## Intro
 
 SQLite is a sql-database that is stored in 1 file.
